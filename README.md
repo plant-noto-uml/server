@@ -1,12 +1,12 @@
-# PlantNotoUML
+# Plant Noto UML Server
 
-A Docker image for running a PlantUML Server with Google Noto Fonts.
+PlantUML Server with Google Noto Fonts.
 
-Currently, we only support Japanese.
+Currently, we support Japanese only.
 
 ## How to Run
 
 ```
-docker run --rm -p 8080:8080 plant-noto-uml/server:ja
+docker run --rm -d -p 8080:8080 plantnotouml/server:ja
 ```
 
