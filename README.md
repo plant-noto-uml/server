@@ -1,4 +1,4 @@
-# Plant Noto UML Server
+# Plant-Noto-UML Server
 
 PlantUML Server with Google Noto Fonts.
 
@@ -10,3 +10,10 @@ Currently, we support Japanese only.
 docker run --rm -d -p 8080:8080 plantnotouml/server:ja
 ```
 
+## Specifying Fonts
+
+For example:
+
+```
+skinparam defaultFontName "Noto Serif CJK JP"
+```
