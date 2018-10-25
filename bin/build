@@ -10,4 +10,4 @@ _abort() {
 }
 
 l="ja"
-exec docker build --force-rm -t plant-noto-uml-build/server:$l-0.1.0 -f docker/$l/Dockerfile docker/$l
+exec docker build --force-rm -t plant-noto-uml-server/build:$l-0.2.0 -f docker/$l/Dockerfile docker/$l
